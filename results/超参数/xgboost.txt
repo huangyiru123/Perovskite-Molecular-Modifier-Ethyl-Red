@@ -1,0 +1,133 @@
+<ParamSet>
+                             id    class lower upper nlevels         default
+ 1:                       alpha ParamDbl     0   Inf     Inf               0
+ 2:               approxcontrib ParamLgl    NA    NA       2           FALSE
+ 3:                  base_score ParamDbl  -Inf   Inf     Inf             0.5
+ 4:                     booster ParamFct    NA    NA       3          gbtree
+ 5:                   callbacks ParamUty    NA    NA     Inf       <list[0]>
+ 6:           colsample_bylevel ParamDbl     0     1     Inf               1
+ 7:            colsample_bynode ParamDbl     0     1     Inf               1
+ 8:            colsample_bytree ParamDbl     0     1     Inf               1
+ 9: disable_default_eval_metric ParamLgl    NA    NA       2           FALSE
+10:       early_stopping_rounds ParamInt     1   Inf     Inf                
+11:                         eta ParamDbl     0     1     Inf             0.3
+12:                 eval_metric ParamUty    NA    NA     Inf  <NoDefault[3]>
+13:            feature_selector ParamFct    NA    NA       5          cyclic
+14:                       feval ParamUty    NA    NA     Inf                
+15:                       gamma ParamDbl     0   Inf     Inf               0
+16:                 grow_policy ParamFct    NA    NA       2       depthwise
+17:     interaction_constraints ParamUty    NA    NA     Inf  <NoDefault[3]>
+18:              iterationrange ParamUty    NA    NA     Inf  <NoDefault[3]>
+19:                      lambda ParamDbl     0   Inf     Inf               1
+20:                 lambda_bias ParamDbl     0   Inf     Inf               0
+21:                     max_bin ParamInt     2   Inf     Inf             256
+22:              max_delta_step ParamDbl     0   Inf     Inf               0
+23:                   max_depth ParamInt     0   Inf     Inf               6
+24:                  max_leaves ParamInt     0   Inf     Inf               0
+25:                    maximize ParamLgl    NA    NA       2                
+26:            min_child_weight ParamDbl     0   Inf     Inf               1
+27:                     missing ParamDbl  -Inf   Inf     Inf              NA
+28:        monotone_constraints ParamUty    NA    NA     Inf               0
+29:              normalize_type ParamFct    NA    NA       2            tree
+30:                     nrounds ParamInt     1   Inf     Inf  <NoDefault[3]>
+31:                     nthread ParamInt     1   Inf     Inf               1
+32:                  ntreelimit ParamInt     1   Inf     Inf                
+33:           num_parallel_tree ParamInt     1   Inf     Inf               1
+34:                   objective ParamUty    NA    NA     Inf binary:logistic
+35:                    one_drop ParamLgl    NA    NA       2           FALSE
+36:                outputmargin ParamLgl    NA    NA       2           FALSE
+37:                 predcontrib ParamLgl    NA    NA       2           FALSE
+38:                   predictor ParamFct    NA    NA       2   cpu_predictor
+39:             predinteraction ParamLgl    NA    NA       2           FALSE
+40:                    predleaf ParamLgl    NA    NA       2           FALSE
+41:               print_every_n ParamInt     1   Inf     Inf               1
+42:                process_type ParamFct    NA    NA       2         default
+43:                   rate_drop ParamDbl     0     1     Inf               0
+44:                refresh_leaf ParamLgl    NA    NA       2            TRUE
+45:                     reshape ParamLgl    NA    NA       2           FALSE
+46:                 sample_type ParamFct    NA    NA       2         uniform
+47:             sampling_method ParamFct    NA    NA       2         uniform
+48:                   save_name ParamUty    NA    NA     Inf                
+49:                 save_period ParamInt     0   Inf     Inf                
+50:            scale_pos_weight ParamDbl  -Inf   Inf     Inf               1
+51:          seed_per_iteration ParamLgl    NA    NA       2           FALSE
+52:  single_precision_histogram ParamLgl    NA    NA       2           FALSE
+53:                  sketch_eps ParamDbl     0     1     Inf            0.03
+54:                   skip_drop ParamDbl     0     1     Inf               0
+55:                strict_shape ParamLgl    NA    NA       2           FALSE
+56:                   subsample ParamDbl     0     1     Inf               1
+57:                       top_k ParamInt     0   Inf     Inf               0
+58:                    training ParamLgl    NA    NA       2           FALSE
+59:                 tree_method ParamFct    NA    NA       5            auto
+60:      tweedie_variance_power ParamDbl     1     2     Inf             1.5
+61:                     updater ParamUty    NA    NA     Inf  <NoDefault[3]>
+62:                     verbose ParamInt     0     2       3               1
+63:                   watchlist ParamUty    NA    NA     Inf                
+64:                   xgb_model ParamUty    NA    NA     Inf                
+                             id    class lower upper nlevels         default
+                     parents     value
+ 1:                                   
+ 2:                                   
+ 3:                                   
+ 4:                             gbtree
+ 5:                                   
+ 6:                                   
+ 7:                                   
+ 8:                                   
+ 9:                                   
+10:                                   
+11:                                   
+12:                                   
+13:                  booster          
+14:                                   
+15:                                   
+16:              tree_method lossguide
+17:                                   
+18:                                   
+19:                                   
+20:                  booster          
+21:              tree_method          
+22:                                   
+23:                                 71
+24:              grow_policy          
+25:                                   
+26:                                   
+27:                                   
+28:                                   
+29:                  booster          
+30:                                 17
+31:                                   
+32:                                   
+33:                                   
+34:                                   
+35:                  booster          
+36:                                   
+37:                                   
+38:                                   
+39:                                   
+40:                                   
+41:                  verbose          
+42:                                   
+43:                  booster          
+44:                                   
+45:                                   
+46:                  booster          
+47:                  booster          
+48:                                   
+49:                                   
+50:                                   
+51:                                   
+52:              tree_method          
+53:              tree_method          
+54:                  booster          
+55:                                   
+56:                                   
+57: booster,feature_selector          
+58:                               TRUE
+59:                  booster      hist
+60:                objective          
+61:                                   
+62:                                   
+63:                                   
+64:                                   
+                     parents     value

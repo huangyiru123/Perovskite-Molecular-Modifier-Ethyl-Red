@@ -1,0 +1,5 @@
+<ParamSet>
+          id    class lower upper nlevels default     value
+1:       eps ParamDbl  -Inf   Inf     Inf       0 0.3333333
+2:   laplace ParamDbl     0   Inf     Inf       0 0.7575758
+3: threshold ParamDbl  -Inf   Inf     Inf   0.001 0.5050505

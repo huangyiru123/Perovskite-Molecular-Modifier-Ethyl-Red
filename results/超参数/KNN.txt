@@ -1,0 +1,7 @@
+<ParamSet>
+         id    class lower upper nlevels default    value
+1:        k ParamInt     1   Inf     Inf       7        9
+2: distance ParamDbl     0   Inf     Inf       2 5.544545
+3:   kernel ParamFct    NA    NA      10 optimal         
+4:    scale ParamLgl    NA    NA       2    TRUE    FALSE
+5:  ykernel ParamUty    NA    NA     Inf                 

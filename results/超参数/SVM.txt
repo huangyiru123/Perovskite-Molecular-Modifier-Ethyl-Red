@@ -1,0 +1,35 @@
+<ParamSet>
+                 id    class lower upper nlevels          default parents
+ 1:       cachesize ParamDbl  -Inf   Inf     Inf               40        
+ 2:   class.weights ParamUty    NA    NA     Inf                         
+ 3:           coef0 ParamDbl  -Inf   Inf     Inf                0  kernel
+ 4:            cost ParamDbl     0   Inf     Inf                1    type
+ 5:           cross ParamInt     0   Inf     Inf                0        
+ 6: decision.values ParamLgl    NA    NA       2            FALSE        
+ 7:          degree ParamInt     1   Inf     Inf                3  kernel
+ 8:         epsilon ParamDbl     0   Inf     Inf   <NoDefault[3]>        
+ 9:          fitted ParamLgl    NA    NA       2             TRUE        
+10:           gamma ParamDbl     0   Inf     Inf   <NoDefault[3]>  kernel
+11:          kernel ParamFct    NA    NA       4           radial        
+12:              nu ParamDbl  -Inf   Inf     Inf              0.5    type
+13:           scale ParamUty    NA    NA     Inf             TRUE        
+14:       shrinking ParamLgl    NA    NA       2             TRUE        
+15:       tolerance ParamDbl     0   Inf     Inf            0.001        
+16:            type ParamFct    NA    NA       2 C-classification        
+               value
+ 1:                 
+ 2:                 
+ 3:         3.181818
+ 4:         1.370909
+ 5:                 
+ 6:                 
+ 7:                6
+ 8:                 
+ 9:                 
+10:                 
+11:       polynomial
+12:                 
+13:                 
+14:                 
+15:                 
+16: C-classification

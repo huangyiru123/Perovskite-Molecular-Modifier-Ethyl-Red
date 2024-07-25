@@ -1,0 +1,18 @@
+<ParamSet>
+           id    class lower upper nlevels        default      value
+ 1:      Hess ParamLgl    NA    NA       2          FALSE           
+ 2:   MaxNWts ParamInt     1   Inf     Inf           1000           
+ 3:       Wts ParamUty    NA    NA     Inf <NoDefault[3]>           
+ 4:    abstol ParamDbl  -Inf   Inf     Inf          1e-04           
+ 5:  censored ParamLgl    NA    NA       2          FALSE           
+ 6: contrasts ParamUty    NA    NA     Inf                          
+ 7:     decay ParamDbl  -Inf   Inf     Inf              0 0.02502503
+ 8:      mask ParamUty    NA    NA     Inf <NoDefault[3]>           
+ 9:     maxit ParamInt     1   Inf     Inf            100           
+10: na.action ParamUty    NA    NA     Inf <NoDefault[3]>           
+11:      rang ParamDbl  -Inf   Inf     Inf            0.7   -1.21021
+12:    reltol ParamDbl  -Inf   Inf     Inf          1e-08           
+13:      size ParamInt     0   Inf     Inf              3           
+14:      skip ParamLgl    NA    NA       2          FALSE           
+15:    subset ParamUty    NA    NA     Inf <NoDefault[3]>           
+16:     trace ParamLgl    NA    NA       2           TRUE           
